@@ -1,0 +1,17 @@
+{
+  "name": "electron-sample",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "version": "electron -V"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsubasa1122/electron-sample.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
