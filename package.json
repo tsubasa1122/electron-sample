@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "version": "electron -V"
+    "version": "electron -V",
+    "release": "electron-packager ./ electron-sample --platform=darwin --arch=x64"
   },
   "repository": {
     "type": "git",
@@ -13,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.0"
   }
 }
